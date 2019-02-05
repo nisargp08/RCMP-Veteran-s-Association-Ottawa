@@ -4,7 +4,7 @@
 <?php get_header(); ?>
 </head>
 <body>
-<div class="introduction-image-span" style="background-image: url(<?php echo get_theme_file_uri('/assets/images/banner-introduction.jpg')?>);">
+<div class="introduction-image-span" style="background-image: url(<?php the_field('background_image')?>);">
     <?php
         while(have_posts()){
             the_post();
