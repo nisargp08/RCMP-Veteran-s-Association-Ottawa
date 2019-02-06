@@ -19,7 +19,7 @@
                 Information<!--<span class="sr-only">(current)</span>-->
             </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="/introduction">Introduction</a>
+                <a class="dropdown-item" href="/introduction">Introductions</a>
                 <a class="dropdown-item" href="/events">Events</a>
                 <a class="dropdown-item" href="#">Profile</a>
                 <a class="dropdown-item" href="#">History</a>
