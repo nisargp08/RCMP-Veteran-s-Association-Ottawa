@@ -23,7 +23,7 @@
                 <div class="card card-body bg-light">
                     <div class="row">
                         <div class="col-md-4 col-sm-4">
-                            <img class="card-img-top" src="<?php get_stylesheet_directory_uri(the_field('event_image'));?>" alt="" style="height:20%;"></img>
+                            <img class="card-img-top" src="<?php get_stylesheet_directory_uri(the_field('event_image'));?>" alt="" style="height:25%;"></img>
                         </div> 
                         <div class="col-md-8 col-sm-8">
                             <h3 class="card-title"><?php the_title(); ?></h3>
