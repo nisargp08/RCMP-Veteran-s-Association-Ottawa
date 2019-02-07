@@ -28,10 +28,10 @@
           <h4>Contact</h4>
 
           <ul>
-            <li>877-251-1771 (toll-free)</li>
-            <li>contact@rcmpva.org</li>
-            <li>RCMPVA on Facebook</li>
-            <li>The Quarterly on Facebook</li>
+            <span class="fa fa-phone" style="font-size:20px;padding-right:2%;"></span>877-251-1771 (toll-free)<br>
+            <span class="fa fa-envelope-square" style="font-size:20px;padding-right:2%;"></span>contact@rcmpva.org<br>
+            <span class="fa fa-facebook-f" style="font-size:20px;padding-right:2%;"></span>RCMPVA on Facebook<br>
+            <span class="fa fa-facebook-f" style="font-size:20px;padding-right:2%;"></span>The Quarterly on Facebook
           </ul>
 
         </div>

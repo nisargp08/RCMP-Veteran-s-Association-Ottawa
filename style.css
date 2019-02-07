@@ -18,6 +18,18 @@
     padding-bottom: 5%;
 }
 
+.navbar-nav > li > .dropdown-menu { 
+    background-color: #2a2c32;
+}
+
+.navbar-nav > li > .dropdown-menu a{   
+    color: white;  
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: black;
+}
+
 body{
     font-family: 'Arial';
 }
