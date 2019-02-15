@@ -4,7 +4,7 @@
 <?php get_header(); ?>
 </head>
 <body>
-    <div class="introduction-image-span" style="background-image: url(<?php the_field('event_image')?>);">
+    <div class="image-span" style="background-image: url(<?php the_field('event_image')?>);">
     <?php
         while(have_posts()){
             the_post();

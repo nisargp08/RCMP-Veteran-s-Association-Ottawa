@@ -50,7 +50,11 @@
         <!-- Grid column -->
         <hr>
             <!-- Copyright -->
-            <div class="footer-copyright container py-3">Copyright &copy; <?php echo date('Y');?> RCMP Veterans' Association   
+            <div class="footer-copyright container py-3">
+              <div class="copyright-section-styling">
+                <a href="#" class="fa fa-arrow-circle-up back-to-top" data-toggle="tooltip" data-placement="top" title="Back To Top" style="font-size:24px;padding-right:1%;"></a>
+                Copyright &copy; <?php echo date('Y');?> RCMP Veterans' Association
+              </div>
         </div>
       </div>
       <!-- Grid row -->

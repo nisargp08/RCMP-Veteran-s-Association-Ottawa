@@ -3,10 +3,13 @@
     Author: 5 Bits
     Version: 1.0
 */
-.introduction-image-span{
+
+/*For the page image banner*/
+.image-span{
     width: 100%;
     height: 25%;
 }
+/*For the image banner text*/
 .banner-text{
     font-size: 3rem;
     color: white;
@@ -17,17 +20,32 @@
     padding-top: 5%;
     padding-bottom: 5%;
 }
-
+/*Navigation bar dropdown background color*/
 .navbar-nav > li > .dropdown-menu { 
     background-color: #2a2c32;
 }
-
+/*Navigation bar dropwdown text color*/
 .navbar-nav > li > .dropdown-menu a{   
     color: white;  
 }
-
+/*Navigation bar dropdown background color on click*/
 .dropdown-item:focus, .dropdown-item:hover {
     background-color: black;
+}
+/*Aligning the copyright section in the footer to the center*/
+.copyright-section-styling{
+    text-align: center;
+}
+
+/*For arrow in the footer*/
+.back-to-top{
+    text-decoration: none;
+    color: white;
+}
+.back-to-top:hover{
+    text-decoration: none;
+    color:grey;
+    transition: 0.5s ease;
 }
 
 body{
