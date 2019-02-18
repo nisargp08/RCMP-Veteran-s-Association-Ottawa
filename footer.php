@@ -30,8 +30,12 @@
           <ul>
             <span class="fa fa-phone" style="font-size:20px;padding-right:2%;"></span>877-251-1771 (toll-free)<br>
             <span class="fa fa-envelope-square" style="font-size:20px;padding-right:2%;"></span>contact@rcmpva.org<br>
-            <span class="fa fa-facebook-f" style="font-size:20px;padding-right:2%;"></span>RCMPVA on Facebook<br>
-            <span class="fa fa-facebook-f" style="font-size:20px;padding-right:2%;"></span>The Quarterly on Facebook
+            <div class="span-icons" data-toggle="tooltip" data-placement="bottom" title="Click on the logo to get Redirected to the page">
+              <a href="https://www.facebook.com/RCMPVets/"  class="fa fa-facebook-f icons" style="font-size:20px;padding-right:2%;"></a>RCMPVA on Facebook<br>
+            </div>
+            <div class="span-icons" data-toggle="tooltip" data-placement="bottom" title="Click on the logo to get Redirected to the page">
+            <a href="https://www.facebook.com/RcmpQuarterly" class="fa fa-facebook-f icons" style="font-size:20px;padding-right:2%;"></a>The Quarterly on Facebook
+            </div>
           </ul>
 
         </div>
@@ -66,10 +70,16 @@
   <!-- Footer -->
 
 <!-- Footer Section of the Website Ends -->
-
+<!-- JavaScripts used on the website -->
+<script src="<?php get_template_directory('/assets/js/popper.min.css') ?>"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+  $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
 <?php wp_footer(); ?>
 </body>
 </html>

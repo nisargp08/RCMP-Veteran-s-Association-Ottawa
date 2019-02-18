@@ -13,7 +13,7 @@
 .banner-text{
     font-size: 3rem;
     color: white;
-    padding-top: 2.5%;
+    padding-top: 4%;
     padding-left: 6%;
 }
 .content-container{
@@ -47,7 +47,34 @@
     color:grey;
     transition: 0.5s ease;
 }
-
+/*For footer social icons*/
+a.icons, .span-icons{
+    text-decoration: none;
+    color: white;
+}
+a.icons:hover, .span-icons:hover{
+    text-decoration: none;
+    color:grey;
+    transition: 0.5s ease;
+}
+img.alignright { 
+    float: right; margin: 0 0 1em 1em; 
+}
+img.alignleft { 
+    float: left; margin: 0 1em 1em 0; 
+}
+img.aligncenter { 
+    display: block; margin-left: auto; margin-right: auto; 
+}
+.alignright { 
+    float: right; 
+}
+.alignleft { 
+    float: left; 
+}
+.aligncenter { 
+    display: block; margin-left: auto; margin-right: auto; 
+}
 body{
     font-family: 'Arial';
 }
