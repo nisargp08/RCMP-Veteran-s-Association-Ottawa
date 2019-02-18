@@ -2,6 +2,7 @@
 <html>
 <head>
 <?php wp_head(); ?>
+<title><?php echo get_the_title(); ?></title>
 </head>
 <body>
  <!-- Navigation Bar Begins -->
