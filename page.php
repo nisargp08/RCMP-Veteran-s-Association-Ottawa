@@ -20,9 +20,17 @@
                 <h4 class="card-header">
                     <div class="text-left">
                         <?php the_field('card_title'); ?>
-                    <div class="btn-group" role="group" data-toggle="tooltip" data-placement="top" title="Click to change the message in the language">
-                    <button class="btn btn-dark btn-sm" data-toggle="collapse" href="#messageCollapseEnglish" aria-expanded="true" aria-controls="messageCollapseEnglish">EN</button>
-                    <button  class="btn btn-danger btn-sm collapsed" data-toggle="collapse" href="#messageCollapseFrench" aria-expanded="false" aria-controls="messageCollapseFrench">FR</button>
+                    <div class="btn-group" role="group">
+                    <button class="btn btn-dark btn-sm" data-toggle="collapse" href="#messageCollapseEnglish" aria-expanded="true" aria-controls="messageCollapseEnglish">
+                        <div data-toggle="tooltip" data-placement="top" title="Click to change the message in English">
+                            EN
+                        </div>
+                    </button>
+                    <button  class="btn btn-danger btn-sm collapsed" data-toggle="collapse" href="#messageCollapseFrench" aria-expanded="false" aria-controls="messageCollapseFrench">
+                        <div data-toggle="tooltip" data-placement="top" title="Click to change the message in French">
+                            FR
+                        </div>
+                    </button>
                     </div>
                     </div>
                 </h4>
