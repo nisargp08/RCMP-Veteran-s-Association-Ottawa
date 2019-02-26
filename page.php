@@ -18,7 +18,7 @@
     <div class="content-container">
         <!-- This if condition is used so that the following piece of code will only be displayed for 'Introduction' page -->
         <?php if(is_page('introduction')){ ?>
-            <div id="accordion"> 
+            <div id="accordion">s
                 <div class="card">
                     <h4 class="card-header">
                         <div class="text-left">
