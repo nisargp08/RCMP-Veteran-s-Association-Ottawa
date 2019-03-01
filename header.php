@@ -23,7 +23,7 @@
                 <a class="dropdown-item" href="/introduction">Introduction</a>
                 <a class="dropdown-item" href="/events">Events</a>
                 <a class="dropdown-item" href="#">Profile</a>
-                <a class="dropdown-item" href="#">History</a>
+                <a class="dropdown-item" href="/History">History</a>
                 <a class="dropdown-item" href="/Executive">Executive</a>
                 <a class="dropdown-item" href="#">RCMP National Memorial Cemetary</a>
                 <a class="dropdown-item" href="#">Education Awards</a>

@@ -58,6 +58,7 @@ a.icons:hover, .span-icons:hover{
     color:grey;
     transition: 0.5s ease;
 }
+/*For wrapping images around the text */
 img.alignright { 
     float: right; margin: 0 0 1em 1em; 
 }
@@ -76,6 +77,22 @@ img.aligncenter {
 .aligncenter { 
     display: block; margin-left: auto; margin-right: auto; 
 }
+/*wrapping images around the text ends*/
+
+/*For tabs on executive page */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color:#2a2c32;
+    border-radius: .50rem;
+    transition: 0.5s ease;
+}
+a{
+    color: black;
+}
+a:hover{
+    transition : 0.5s ease;
+    color: black;
+}
+/*Tabs on executive page ends*/
 body{
     font-family: 'Arial';
 }

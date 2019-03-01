@@ -50,6 +50,30 @@
             </div>
         <!-- If condition for introduction page content ends here -->
         <?php } ?>
+        <?php if(is_page('Executive')) { ?>
+            <div class="card ">
+                <div class="card-header"> 
+                    <ul class="nav nav-pills card-header-pills"  id="myTab" role="tablist">
+                        <li class="nav-item">
+                        <a class="nav-link active test" id="first-tab" data-toggle="tab" href="#firstTab" role="tab" aria-controls="firstTab" aria-selected="true"><?php the_field('first_tab_title'); ?></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="second-tab" data-toggle="tab" href="#secondTab" role="tab" aria-controls="secondTab" aria-selected="false"><?php the_field('second_tab_title'); ?></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="third-tab" data-toggle="tab" href="#thirdTab" role="tab" aria-controls="thirdTab" aria-selected="false"><?php the_field('third_tab_title'); ?></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="firstTab" role="tabpanel" aria-labelledby="first-tab"><?php the_content(); ?></div>
+                        <div class="tab-pane fade" id="secondTab" role="tabpanel" aria-labelledby="second-tab"><?php the_field('second_tab_content'); ?></div>
+                        <div class="tab-pane fade" id="thirdTab" role="tabpanel" aria-labelledby="third-tab"><?php the_field('third_tab_content'); ?></div>
+                    </div>
+                </div>
+            </div>
+        <?php } ?>
     </div>
 </div>
  
