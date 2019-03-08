@@ -2,7 +2,6 @@
 <html>
 <head>
 <?php wp_head(); ?>
-<title><?php echo get_the_title(); ?></title>
 </head>
 <body>
  <!-- Navigation Bar Begins -->
@@ -26,7 +25,7 @@
                 <a class="dropdown-item" href="/History">History</a>
                 <a class="dropdown-item" href="/Executive">Executive</a>
                 <a class="dropdown-item" href="#">RCMP National Memorial Cemetary</a>
-                <a class="dropdown-item" href="#">Education Awards</a>
+                <a class="dropdown-item" href="/Education Awards">Education Awards</a>
                 </div>
         </li>
         <li class="nav-item dropdown"><!-- include active after nav-item to make the page active -->

@@ -93,6 +93,15 @@ a:hover{
     color: black;
 }
 /*Tabs on executive page ends*/
+
+/*For dropdown on education award page */
+.education-dropdown:hover, .education-dropdown:focus{
+    color: white;
+}
+
+.dropdown:hover > .dropdown-menu{
+    display: block;
+}
 body{
     font-family: 'Arial';
 }
