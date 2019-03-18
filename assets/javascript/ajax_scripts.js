@@ -12,7 +12,7 @@ jQuery(document).ready(function($) {
       $.ajax({
           url: ajax_obj.ajaxurl, // or example_ajax_obj.ajaxurl if using on frontend
           data: {
-              'action': 'my_action',
+              'action': 'ed_award',
               'docYear' : docYear
           },
           success:function(data) {

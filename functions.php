@@ -41,7 +41,7 @@
                         $yearCheckOne = strpos($docs["title"],$searchName_firstParam);
                         $yearCheckTwo = strpos($docs["title"],$searchName_secondParam);
                         if($yearCheckOne !== false OR $yearCheckTwo!== false){
-                            echo "<a role='button' href='".$docs["url"]."' target='_blank' class='btn btn-danger btn-sm'>".$docs["title"]."</a>&nbsp;";
+                            echo "<a role='button' href='".$docs["url"]."' target='_blank' class='btn btn-danger btn-sm'>".$docs["title"]."</a>&nbsp;&nbsp;";
                         }
                     }
             }
@@ -58,6 +58,6 @@
     /*This action is used to call the function which will set the title of each page according to its name in the database */
     add_action('after_setup_theme','title_setup');
     /*Ajax actions*/
-    add_action('wp_ajax_my_action','education_award');
-    add_action('wp_ajax_nopriv_my_action','education_award');
+    add_action('wp_ajax_ed_award','education_award');
+    add_action('wp_ajax_nopriv_ed_award','education_award');
 ?>
