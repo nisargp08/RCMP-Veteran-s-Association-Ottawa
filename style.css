@@ -102,6 +102,13 @@ a:hover{
 .dropdown:hover > .dropdown-menu{
     display: block;
 }
+.ed-pad{
+    padding: 20px;
+}
+.map-responsive{
+    overflow: hidden;
+    position: relative;
+}
 body{
     font-family: 'Arial';
 }

@@ -109,6 +109,45 @@
             </div>
         <!-- If condition for Education Awards page content ends here -->
         <?php } ?>
+
+        <!-- If condition for Contact page starts here -->
+        <?php if(is_page('Contact')){ ?>
+        <div class="row">
+            <div class="col-sm-3 ed-pad">
+            <?php 
+                $genQ = get_field_object('general_inquiries');
+                echo "<h3>".$genQ["label"]."</h3>";
+                echo "<p>".$genQ["value"]."</p>";
+            ?>
+            </div>
+            <div class="col-sm-3 ed-pad">
+            <?php 
+                $exofficeQ = get_field_object('executive_office');
+                echo "<h3>".$exofficeQ["label"]."</h3>";
+                echo "<p>".$exofficeQ["value"]."</p>";
+            ?>               
+            </div>
+            <div class="col-sm-3 ed-pad">
+            <?php 
+                $exassQ = get_field_object('executive_assistant');
+                echo "<h3>".$exassQ["label"]."</h3>";
+                echo "<p>".$exassQ["value"]."</p>";
+            ?>              
+            </div>
+            <div class="col-sm-3 ed-pad">
+            <?php 
+                $addQ = get_field_object('address');
+                echo "<h3>".$addQ["label"]."</h3>";
+                echo "<p>".$addQ["value"]."</p>";                
+            ?>              
+            </div><hr>
+            <div class="map-responsive">
+            <?php the_content(); ?>
+            </div>
+        </div>
+        <!-- If condition for Contact page ends here -->
+        <?php } ?>
+
      <!-- Content Container division tag ends here -->    
     </div>
 <!-- Container division tag ends here -->
