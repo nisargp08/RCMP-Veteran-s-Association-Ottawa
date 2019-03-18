@@ -51,7 +51,7 @@
         <!-- If condition for introduction page content ends here -->
         <?php } ?>
         <?php if(is_page('Executive')) { ?>
-            <div class="card ">
+            <div class="card">
                 <div class="card-header"> 
                     <ul class="nav nav-pills card-header-pills"  id="myTab" role="tablist">
                         <li class="nav-item">
@@ -74,7 +74,44 @@
                 </div>
             </div>
         <?php } ?>
+         <!-- If condition for Executive page content ends here -->
+         <?php if(is_page('Education Awards')){ ?>
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text"><?php the_content(); ?></p>
+                    <hr>
+                    <h5>Documents</h5>
+                        <div class="accordion" id="accordionDocYear"> 
+                            <?php 
+                                    /*Storing all the years for awards in the variable */
+                                    $years = get_field('education_award_year');
+                                    if($years){
+                                        /*Foreach loop to display a button for each document year */
+                                        foreach($years as $year){
+                            ?>
+                                        <button class="btn btn-dark btn-sm collapseId" id="<?php echo $year; ?>" type="button" data-toggle="collapse"><?php echo $year; ?></button>
+                            <?php 
+                            /*foreach loop ends*/
+                            }
+                            ?>
+                                    <div id="yearCollapse" class="collapse" aria-labelledby="year" data-parent="#accordionDocYear">
+                                            <div class="card-body" id="document-body">
+                                            </div>
+                                    </div>
+                            <?php
+                            }
+                            ?> 
+                        <!-- Accordion ends -->
+                        </div> 
+                <!-- Card-body division tag ends -->         
+                </div>
+            <!-- Card division tag ends -->
+            </div>
+        <!-- If condition for Education Awards page content ends here -->
+        <?php } ?>
+     <!-- Content Container division tag ends here -->    
     </div>
+<!-- Container division tag ends here -->
 </div>
  
 <!-- Footer of the Website -->
