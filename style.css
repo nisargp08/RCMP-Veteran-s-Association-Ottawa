@@ -3,19 +3,36 @@
     Author: 5 Bits
     Version: 1.0
 */
-
+.introduction-image-span{
+    background-size: cover;
+}
+.imagelogo{
+    width: 20%;
+    padding-left: 10%;
+    overflow : hidden;    
+}
+.card-img-top{
+    height: auto;
+}
+.image-resize{
+    padding-top: 5%; 
+}
 /*For the page image banner*/
 .image-span{
     width: 100%;
     height: 25%;
 }
 /*For the image banner text*/
+.banner-text-index{
+    font-size: 3rem;
+    color: white;
+    padding-left: 10%;
+}
 .banner-text{
     font-size: 3rem;
     color: white;
-    padding-top: 4%;
     padding-left: 6%;
-    text-align: left;
+    padding-top: 10%;
 }
 .content-container{
     padding-top: 5%;
@@ -108,6 +125,145 @@ a:hover{
 .map-responsive{
     overflow: hidden;
     position: relative;
+}
+.right-border{
+    border-right: 1px solid darkgrey;
+}
+.btn-block-signup{
+    padding: 10%;
+}
+.membership-link:hover , .membership-link:focus{
+    text-decoration: none;
+    transition : 0.5s ease;
+    color: red;
+}
+/*Ultimate Member display */
+.um {
+    opacity: 1 !important;
+    }
+
+/*Ultimate Member Color Change*/
+.um .um-tip:hover,
+.um .um-field-radio.active:not(.um-field-radio-state-disabled) i,
+.um .um-field-checkbox.active:not(.um-field-radio-state-disabled) i,
+.um .um-member-name a:hover,
+.um .um-member-more a:hover,
+.um .um-member-less a:hover,
+.um .um-members-pagi a:hover,
+.um .um-cover-add:hover,
+.um .um-profile-subnav a.active,
+.um .um-item-meta a,
+.um-account-name a:hover,
+.um-account-nav a.current,
+.um-account-side li a.current span.um-account-icon,
+.um-account-side li a.current:hover span.um-account-icon,
+.um-dropdown li a:hover,
+i.um-active-color,
+span.um-active-color
+{
+    color: #3ba1da!important;
+}
+
+.um .um-field-group-head,
+.picker__box,
+.picker__nav--prev:hover,
+.picker__nav--next:hover,
+.um .um-members-pagi span.current,
+.um .um-members-pagi span.current:hover,
+.um .um-profile-nav-item.active a,
+.um .um-profile-nav-item.active a:hover,
+.upload,
+.um-modal-header,
+.um-modal-btn,
+.um-modal-btn.disabled,
+.um-modal-btn.disabled:hover,
+div.uimob800 .um-account-side li a.current,
+div.uimob800 .um-account-side li a.current:hover
+{
+    background: #3ba1da!important;
+}
+
+.um .um-field-group-head:hover,
+.picker__footer,
+.picker__header,
+.picker__day--infocus:hover,
+.picker__day--outfocus:hover,
+.picker__day--highlighted:hover,
+.picker--focused .picker__day--highlighted,
+.picker__list-item:hover,
+.picker__list-item--highlighted:hover,
+.picker--focused .picker__list-item--highlighted,
+.picker__list-item--selected,
+.picker__list-item--selected:hover,
+.picker--focused .picker__list-item--selected {
+    background: #44b0ec!important;
+}
+
+.um input[type=submit]:disabled:hover {
+    background: #3ba1da!important;
+}
+
+.um input[type=submit].um-button,
+.um input[type=submit].um-button:focus,
+.um a.um-button,
+.um a.um-button.um-disabled:hover,
+.um a.um-button.um-disabled:focus,
+.um a.um-button.um-disabled:active {
+    /*Regular Button*/
+    background: #dc3545!important; 
+}
+
+.um .um-button.um-alt:hover, .um input[type=submit].um-button.um-alt:hover {
+    background: #e5e5e5!important;	
+}
+
+.um .um-button.um-alt, .um input[type=submit].um-button.um-alt {
+    background: #e5e5e5!important;
+}
+
+.um a.um-link {
+    color: #3ba1da!important;
+}
+
+.um input[type=submit].um-button:hover,
+.um a.um-button:hover {
+    transition : 0.5s ease;
+    background-color: #2a2c32!important;
+}
+
+.um a.um-link:hover,
+.um a.um-link-hvr:hover {
+    color: #44b0ec!important;
+}
+/*Um-Profile page css*/
+.real_url{
+    font-size: 16px!important;
+    font-weight: 700!important;
+}
+.um-dropdown-hide{
+    font-size: 16px!important;
+    font-weight: 700!important;
+}
+.um-dropdown li a:hover,.um-dropdown li a:focus{
+    color: #2a2c32!important;
+}
+.um-profile.um .um-profile-headericon a:hover, .um-profile.um .um-profile-edit-a.active {
+    color: #2a2c32!important;
+}
+/*Profile page ends*/
+/*Navigation bar avatar css*/
+.gravatar {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    }
+/*Navigation bar avatar ends*/
+/*Ultimate member color change ends here*/
+.register-button:hover,.register-button:focus{
+    transition : 0.5s ease;
+    background-color: #2a2c32;
 }
 body{
     font-family: 'Arial';
