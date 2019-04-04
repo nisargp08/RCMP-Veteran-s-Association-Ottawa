@@ -33,10 +33,11 @@
         wp_reset_postdata();
     }
     ?>
-    <div class="introduction-image-span" style="background-image: url('<?php echo $backgroundImage; ?>')">
-        <div class="banner-text-index">
+    <div class="introduction-image-span responsive" style="background-image: url('<?php echo $backgroundImage; ?>')">
+        <!--<div class="banner-text-index">-->
+        <div class="banner-text">
             <h3>Welcome / Bienvenue</h3>
-            <h5> to Ottawa Division</h5>
+            <h5>To Ottawa Division</h5>
 
         </div>
 

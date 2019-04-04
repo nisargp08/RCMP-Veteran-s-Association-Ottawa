@@ -356,6 +356,179 @@ while ($banner_image->have_posts()) {
             <!-- If condition for History page content ends here -->
             <?php 
         } ?>
+        <?php if(is_Page('links')){ ?>
+		<?php the_content(); ?>
+		
+		<div class=" row" role="group" aria-label="Basic example">
+	
+		<div class ="col-md-4">
+			<div class="dropdown">
+  <button class="btn btn-secondary btn-lg text-white bg-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <?php the_field('rcmp_veterans') ?>
+  </button>
+  <div class="dropdown-menu text-white bg-dark" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('rcmp') ?>">RCMP Veterans' Association</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('calgary') ?>">Calgary Division</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('edmonton') ?>">Edmonton Division</a>
+	 <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('kingston') ?>">Kingston Division</a>
+	  <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('manitoba') ?>">Manitoba Division</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('montreal') ?>">Montreal Division</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('brunswick') ?>">New Brunswick Division</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('foundland') ?>">Newfoundland Division</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('nova') ?>">Nova Scotia Division</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('prince_Edward') ?>">Prince Edward Island</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('prince_george') ?>">Prince George Division</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('regina') ?>">Regina Division</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('saskatoon') ?>">Saskatoon Division</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('Snow') ?>">Snow Birds</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('vancouver') ?>">Vancouver Division</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('yukon') ?>">Yukon Division</a>
+  
+  </div>
+
+</div>
+	</div>	
+	<div class="col-md-4">
+<div class="dropdown">		
+  <button class="btn btn-secondary btn-lg text-white bg-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   <?php the_field('rcmp_label') ?>
+  </button>
+  <div class="dropdown-menu text-white bg-dark" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('graves') ?>">Graves and Monument</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('last_post') ?>">Last Post</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('long_island') ?>">Long Island Conference Centre & Recreation Facility</a>
+	 <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('Rcmp_rcmp') ?>">RCMP</a>
+	  <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('curling_club') ?>">RCMP Curling Club</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('heritage_center') ?>">RCMP Heritage Center</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('honours') ?>">RCMP Honours and Recognition Programs</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('national') ?>">RCMP National Memorial Cemetry</a>
+    <a class="dropdown-item text-white bg-dark"  target="_blank" href="<?php the_field('pipes') ?>">RCMP Pipes and Drums</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('foundation') ?>">RCMP Foundation</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('pension') ?>">RCMP Pension</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('Quarterly') ?>">The Quarterly</a>
+  
+  </div>
+     </div>
+</div>
+
+			<div class="col-md-4">
+		<div class="dropdown">	
+  <button class="btn btn-secondary btn-lg text-white bg-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   <?php the_field('government_label') ?>
+  </button>
+  <div class="dropdown-menu text-white bg-dark" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('bruce') ?>">Bruce Denniston Bone Marrow Society -Ottawa Chapter</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('federal') ?>">Federal Supernnuates National Association</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('federal-ottawa') ?>">Federal Supernnuates National Association -Ottawa</a>
+	 <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('ontario') ?>">Ontario Provincial Police Veterans</a>
+	  <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('public') ?>">Public Service Health Care Plan</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('service') ?>">Service Canada</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('metropolitan') ?>">Metropolitan Toronto Police Pensioners Association</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('treasury') ?>">Treasury Board</a>
+  
+  </div>
+		 </div>
+</div>
+</div>
+
+<br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		<?php } ?>
+		
+
+
+		<?php if(is_Page('Kit Clothing')){ ?>
+        <?php the_content(); ?>
+		<div class="row">
+		<div class="col-md-6">
+		<a type="button" class="btn text-white bg-dark" data-toggle="tooltip" title="Dress Code" target="_blank" href="<?php the_field('order_of_dress') ?>">Orders of Dress</a>
+		</div>
+		</div>
+		
+						
+						<?php } ?>
+		
+		<?php if(is_Page('RCMP National Memorial Cemetary')){ ?>
+        <?php the_content(); ?>
+		<div class="row">
+		<div class="col-md-6">
+		<a type="button" class="btn btn-lg text-white bg-dark" data-toggle="tooltip" title="Click to Open Pamphlet" target="_blank" href="<?php the_field('pamphlet') ?>">Pamphlet</a>
+		</div>
+		<div class="col=md-6">
+		<a type="button" class="btn btn-lg text-white bg-dark" data-toggle="tooltip" title= "Click to Open the BeechWood Website" target="_blank" href="<?php the_field('website') ?>">Website</a>
+		</div>
+		</div>
+		<?php } ?>
+		
+		<?php if(is_Page('The Spirit')){ ?>
+        <?php the_content(); ?>
+		<div class="row">
+	<div class="col-md-3">
+  <button class="btn btn-lg text-white bg-dark dropdown-toggle"  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   <?php the_field('2018issue') ?>
+  </button>
+  <div class="dropdown-menu text-white bg-dark" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('2018fall') ?>">Fall</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('2018summer') ?>">Summer</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('may_23_2018') ?>">May 23, 2018 <br/> Vigil at Beechwood</a>
+	 <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('2018spring') ?>">Spring</a>
+	  <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('2018winter') ?>">Winter</a>
+  </div>
+</div>
+
+<div class="btn  col-md-3">
+  <button class="btn btn-lg text-white bg-dark dropdown-toggle"  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   <?php the_field('2017issue') ?>
+  </button>
+  <div class="dropdown-menu text-white bg-dark" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('2017fall') ?>">Fall</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('2017summer') ?>">Summer</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('2017spring') ?>">Spring</a>
+	<a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('2017winter') ?>">Winter</a>
+  
+</div>
+
+</div>
+
+<div class="btn  col-md-3">
+
+  <button class="btn btn-lg text-white bg-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   <?php the_field('2016issue') ?>
+  </button>
+  <div class="dropdown-menu text-white bg-dark" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('2016fall') ?>">Fall</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('2016summer') ?>">Summer</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('2016spring') ?>">Spring</a>
+	<a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('2016winter') ?>">Winter</a>
+  </div>
+</div>
+
+<div class="btn  col-md-3">
+  <button class="btn btn-lg text-white bg-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   <?php the_field('2015issue') ?>
+  </button>
+  <div class="dropdown-menu text-white bg-dark" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('2015fall') ?>">Fall</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('2015summer') ?>">Summer</a>
+    <a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('2015spring') ?>">Spring</a>
+	<a class="dropdown-item text-white bg-dark" target="_blank" href="<?php the_field('2015winter') ?>">Winter</a>
+  </div>
+  </div>
+</div>
+
+
+<br/>
+<br/>
+<br/>
+
+<br/>
+<br/>
+<br/>
+
+
+			<?php } ?>
+			
             <!-- Content Container division tag ends here -->
         </div>
         <!-- Container division tag ends here -->
